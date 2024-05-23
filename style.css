@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #ff6347; /* Highlighted color for the name */
+}
+
+.highlight {
+    color: #ff6347; /* Same highlighted color for the name */
+}
+
+header p {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    max-width: 300px;
+}
+
+.left h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.left ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left li {
+    margin: 10px 0;
+    color: #555;
+}
+
+.left a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.left a:hover {
+    text-decoration: underline;
+}
+
+.left button {
+    background: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.left button:hover {
+    background: #ff4500;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.right {
+    max-width: 400px;
+    text-align: center;
+}
+
+.right img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.right p {
+    font-size: 0.9em;
+    color: #555;
+}
+.right img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Added transition for smooth scaling */
+}
+
+.right img:hover {
+    transform: scale(1.1); /* Scale the image to 110% on hover */
+}
